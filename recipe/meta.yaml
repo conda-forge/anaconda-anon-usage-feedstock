@@ -13,7 +13,7 @@ build:
   noarch: python
   # Please continue to use starting build number 100 in order
   # to match Anaconda's build number strategy for this package
-  number: 0
+  number: 100
   # The Anaconda recipe uses a build script to manage the two different
   # variants, but that is not necessary here
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
