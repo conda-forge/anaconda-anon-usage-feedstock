@@ -1,5 +1,5 @@
 {% set name = "anaconda-anon-usage" %}
-{% set version = "0.7.3" %}
+{% set version = "0.7.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/anaconda/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: a8393a70b68447f5e62e46ece5f22be0a9447784790c2be903eab6d704439b39
+  sha256: 6b0f10ec0b7b57ef3c1d4c4c710001993f31abd65e41388a63bc6dee2edf5fac
 
 build:
   noarch: python
